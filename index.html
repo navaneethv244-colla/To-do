@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- js  -->
+    <script src="./script.js"></script>
+    <!-- tailwind  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-red-100">
+    <h1 class="text-center font-bold text-2xl">To do</h1>
+    <div class="row flex h-full justify-center gap-10 mt-10">
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWPg5eKQ-AGmossgvl_kC8c3VSqFKrKKTKFRbdpmP-g&s=10" alt="">
+        </div>
+        <div class="col">
+            <input id="result" type="text" placeholder="Enter task" class="bg-white   w-90 h-10">
+            <button onclick="todo()" class="h-10 w-10 bg-white rounded-xl shadow-xl">Add</button>
+            <ul id="l" class="mt-2"></ul>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
